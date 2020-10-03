@@ -344,6 +344,13 @@ of a book, but you are not limited only by the book properties we described.
 Create your own book type of your dreams!
 -}
 
+data Book = Book
+    {
+      title :: String,
+      author :: String,
+      pages :: Int
+    } deriving (Show)
+
 {- |
 =⚔️= Task 2
 
